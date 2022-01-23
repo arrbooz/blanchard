@@ -24,6 +24,11 @@ let swiper = new Swiper(sliderGal, {
 		prevEl: '.gallery-prev'
 	},
 
+	pagination: {
+		el: '.gallery-pagination',
+		type: 'fraction',
+	},
+
 	// Автовысота
 	autoHeight: false,
 
@@ -35,6 +40,12 @@ let swiper = new Swiper(sliderGal, {
 
 	// Количество пролистываемых слайдов
 	slidesPerGroup: 3,
+
+	loop: true,
+
+	
+
+
 
 });
 
